@@ -9,6 +9,7 @@ def calculator():
     4 Dzielenie: """))
 
     if action in [1, 3]:
+        
         try:
             numbers = [float(n) for n in input("""Podaj składniki oddzielone przecinkiem: """).split(',')]
         except ValueError:
